@@ -55,7 +55,7 @@ def predict():
     if file:
         # Inisialisasi klien GCS
         storage_client = storage.Client()
-        bucket_name = 'detectea-uploads'
+        bucket_name = 'bucket_name'
 
         # Upload file ke GCS
         bucket = storage_client.bucket(bucket_name)
